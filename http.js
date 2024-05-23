@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
   res.end("A Beautiful Sunny Day for taking a Walk around the Pond.");
 });
 
-// console.log("its a sunny Day");
+console.log("It is a sunny Day");
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
